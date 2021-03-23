@@ -40,7 +40,7 @@ background: linear-gradient(to right, #00AAFF, #00FF6C);
 }
 .outout {
     grid-column: 1 / -1;
-    background-color: rgba(0, 0, 0, .75);
+    background-color: rgba(0, 0, 0, 0.233);
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
@@ -49,12 +49,11 @@ background: linear-gradient(to right, #00AAFF, #00FF6C);
     word-wrap: break-word;
     word-break: break-all;
 }
-
 .outout .previus-operand {
-    color: rgba(225, 225, 225, .75);
+    color: rgb(0, 0, 0);
 font-size: 1.5rem;
 }
 .outout .current-operand {
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 2.5rem;
 }
